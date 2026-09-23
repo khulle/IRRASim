@@ -12,7 +12,7 @@ import importlib.resources as resources
 ## ref 28 in Flach
 ## Bertie, J.E. & M. Khalique Ahmed J. Phys. Chem. 1989, 93, 2210-2218
 ##digitzed with adobe OCR + excel
-water_data = np.loadtxt(resources.files("IRRASim.data") / "Bertie_9000_1250.txt", float, skiprows=1) #wavenumber 1/cm, k, n 
+water_data = np.loadtxt(resources.files("irrasim.data") / "Bertie_9000_1250.txt", float, skiprows=1) #wavenumber 1/cm, k, n 
 
 wn_all = water_data[:,0]
 cn2_all = water_data[:,2] + 1j * water_data[:,1]
