@@ -1,7 +1,7 @@
 #libraries
 import numpy as np
 from math import pi
-from IRRASim.waterprep import Theta2, Water_R0p, Water_R0s
+from irrasim.waterprep import Theta2, Water_R0p, Water_R0s
 
 #constants 
 ##air
